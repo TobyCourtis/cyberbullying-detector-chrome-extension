@@ -12,4 +12,4 @@ How to run the Google Chrome Extension:
 3) Add the Extension to Google Chrome browser
    - chrome://extensions/ - Load unpacked - Select the entire repository folder
    - If the certificate used with the server is not authenticated allow classification by disabling web security: 
-      - `open -a Google\ Chrome --args --disable-web-security --user-data-dir=""`
+      - `open -n -a Google\ Chrome --args --user-data-dir=/tmp/chrome_dev_test --disable-web-security`

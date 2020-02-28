@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Terminal+Dosis')
+;
+head{
+    word-wrap: break-word;
+}
+body{
+    background-color: #7E57C2;
+    color: #fff;
+    font-family: "Terminal Dosis";
+    padding: 20px 20px 20px 20px;
+    word-wrap: break-word;
+    min-width: 600px;
+    min-height: 400px;
+}
+#outEvent{
+    font-family: Helvetica, Ariel, Sans-serif;
+    padding: 10px 10px 10px 10px;
+}
+#main{
+    padding: 0px 20px 20px 20px;
+}
+#auto_classify_div{
+    padding: 0px 20px 20px 20px;
+}
+#title_in_navbar{
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-family: "Terminal Dosis";
+    fontSizeXx: 3.6rem;
+    font-weight: 400;
+    lineHeightSm: 1.1;
+}
+#classification_returned{
+    text-align: center;
+    display: block;
+}
+#textClassify{
+    resize: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    color: #7E57C2;
+}
+#textClassify:focus{
+  outline: none;
+}
+#main_form{
+    padding: 5px 5px 5px 5px;
+    width: auto;
+}
+#submission_button{
+  display: inline-block;
+  padding: 7px 12px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 100%;
+}
+
+#submission_button:hover {background-color: #3e8e41}
+
+#submission_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#auto_button{
+  display: inline-block;
+  padding: 7px 12px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #E30D0D;
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: 0 9px #999; */
+  width: 100%;
+}
+
+#auto_button:hover {background-color: #AE0D0D}
+
+#auto_button:active {
+  background-color: #AE0D0D;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

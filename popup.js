@@ -3,6 +3,9 @@ const serverURL = "https://127.0.0.1:8080/"; // change to given server URL
 
 'use strict';
 
+// code here is for the popup - popup.js file
+// bundled into bundle_popup.js
+
 
 document.addEventListener('DOMContentLoaded', function() {
     var automatic_button = document.getElementById("auto_button");

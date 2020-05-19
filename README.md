@@ -4,7 +4,7 @@ Google Chrome Extension component of the 'Cyberbullying Detector' requiring cybe
 My research paper titled ‘Towards Automated Blocking of Cyberbullying in Online Social Networks’, outlining the background and approach to producing my cyberbullying detector can be viewed [here](http://www.tobycourtis.com/wp-content/uploads/2020/04/Towards-Automated-Blocking-of-Cyberbullying-in-OSNs.pdf).
 <br></br>
 Experiment by inputting text to the Cyberbullying Detector through the Google Chrome extension user interface [here](http://www.tobycourtis.com/index.php/cyberbullying_detector/).
-
+<br></br>
 How to run the Google Chrome Extension:
 
 1) Alter content.js and popup.js
